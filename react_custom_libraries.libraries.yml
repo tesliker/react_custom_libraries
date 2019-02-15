@@ -1,0 +1,13 @@
+react-custom:
+  version: 1.x
+  js:
+    //unpkg.com/react@16/umd/react.development.js: {type: external, minified: true, weight: -50}
+    //unpkg.com/react-dom@16/umd/react-dom.development.js: {type: external, minified: true, weight: -49}
+    //unpkg.com/@material-ui/core@3.9.2/umd/material-ui.development.js: {type: external, minified: true, weight: -48}
+  css:
+    theme:
+      https://fonts.googleapis.com/css?family=Roboto:300,400,500: {}
+      https://fonts.googleapis.com/icon?family=Material+Icons: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
